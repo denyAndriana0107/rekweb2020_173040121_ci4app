@@ -19,6 +19,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('/komik') ?>">Komik</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url('/orang')?>">Orang</a>
+                </li>
                 </ul>
             </div>
             
