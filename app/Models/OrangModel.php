@@ -7,6 +7,6 @@ class OrangModel extends Model{
     protected $useTimestamps= true;
     
     public function search($keyword){
-        return $this->table('orang')->like('nama',$keyword);
+        return $this->table('orang')->like('nama',$keyword)->orLike('alamat',$keyword);
     }
 }
